@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rajivbhawanapp.rajivbhawan.com.rajivbhawan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:logo="@drawable/logo"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity android:name=".FlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Rajiv Bhawan"/>
+        <activity
+            android:name=".Signin"
+            android:label="@string/title_activity_signin" />
+        <activity
+            android:name=".CarpenterComplaint"
+            android:noHistory="true"
+            android:label="@string/title_activity_carpenter_complaint" />
+        <activity
+            android:name=".OtherComplaint"
+            android:noHistory="true"
+            android:label="@string/title_activity_other_complaint" />
+        <activity
+            android:name=".ImportantContacts"
+            android:label="@string/title_activity_important_contacts" />
+        <activity
+            android:name=".MessFeedback"
+            android:noHistory="true"
+            android:label="@string/title_activity_mess_feedback" />
+        <activity
+            android:name=".ElectricityComplaint"
+            android:noHistory="true"
+            android:label="@string/title_activity_electricity_complaint" />
+        <activity
+            android:name=".SubmitWorker"
+            android:noHistory="true"
+            android:label="@string/title_activity_submit_worker"></activity>
+    </application>
+
+</manifest>

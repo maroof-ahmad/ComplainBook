@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rajiv Bhawan</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="electricity_complaint">Electricity Complaint</string>
+    <string name="carpenter_complaint">Carpenter Complaint</string>
+    <string name="mess_complaint">Mess Complaint</string>
+    <string name="other_complaint">Other Complaint</string>
+    <string name="important_contacts">Important Contacts</string>
+    <string name="official_website">Visit Bhawan\'s website</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_carpenter_complaint">CarpenterComplaint</string>
+    <string name="title_activity_mess_complaint">MessComplaint</string>
+    <string name="title_activity_other_complaint">OtherComplaint</string>
+    <string name="title_activity_important_contacts">ImportantContacts</string>
+    <string name="title_activity_mess_feedback">MessFeedback</string>
+    <string name="title_activity_electricity_complaint">ElectricityComplaint</string>
+    <string name="title_activity_submit_worker">SubmitWorker</string>
+</resources>
